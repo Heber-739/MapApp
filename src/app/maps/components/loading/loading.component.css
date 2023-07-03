@@ -1,0 +1,17 @@
+.body{
+    align-items: center;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 100dvh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100dvw;
+}
+.container{
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+}

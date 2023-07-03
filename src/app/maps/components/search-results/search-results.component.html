@@ -1,0 +1,21 @@
+<div class="alert" *ngIf="isLoadingPlaces">
+    <h4>Cargando</h4>
+    <span>Espere por favor...</span>
+
+</div> 
+
+
+<ul class="list" *ngIf="places.length > 0">
+
+    <li 
+    class="items pointer" 
+    *ngFor="let place of places"
+    (click)="flyTo(place)"
+    [class.active]="this.selectedId == place.id"
+    >
+        <h4>{{ place.text_es }}</h4>
+        <p> {{place.place_name}} </p>
+        <button type="button" class="btn"
+        (click)="getDirection(place)">Direcciones</button>
+    </li>
+</ul>

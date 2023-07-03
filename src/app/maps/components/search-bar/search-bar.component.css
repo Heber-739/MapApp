@@ -1,0 +1,15 @@
+.container{
+
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0,0.1);
+    box-shadow: 0 10px 10px rgb(0, 0, 0,0.1);
+    left: 20px;
+    max-width: 35dvw;
+    padding: 5px;
+    position: fixed;
+    top: 20px;
+}
+.text{
+    width: 98%;
+}
